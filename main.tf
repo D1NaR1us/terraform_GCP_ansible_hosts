@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = "${file(mygcp.json)}"
+  credentials = "${GOOGLE_APPLICATION_CREDENTIALS}"
   project     = "involuted-earth-341207"
   region      = "us-west1"
   zone        = "us-west1-b"
