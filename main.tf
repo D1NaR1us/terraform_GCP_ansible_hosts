@@ -18,6 +18,6 @@ resource "google_compute_instance" "myserver" {
     access_config {}
   }
   metadata = {
-    sshKeys = "Dinarius:${var.ssh_public_key}"
+    sshKeys = "Dinarius:${file(var.ssh_public_key)}"
   }
 }
