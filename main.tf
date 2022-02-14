@@ -1,4 +1,5 @@
 provider "google" {
+  credentials = "mygcp.json"
   project     = "involuted-earth-341207"
   region      = "us-west1"
   zone        = "us-west1-b"
