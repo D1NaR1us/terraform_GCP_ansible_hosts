@@ -1,5 +1,5 @@
 provider "google" {
-  project     = "involuted-earth-341207"
+  project     = "idyllic-pottery-336614"
   region      = "europe-west1"
   zone        = "europe-west1-b"
 }
