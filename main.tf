@@ -6,8 +6,8 @@ provider "google" {
 
 resource "google_compute_instance" "vm_instance" {
   name         = "terraform-instance-${count.index + 1}"
-  machine_type = "e2-micro"
-  count = 2
+  machine_type = "f1-micro"
+  count = 1
   tags = ["http-server"] 
 
   boot_disk {
